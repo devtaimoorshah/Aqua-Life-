@@ -11,11 +11,7 @@ wp-config.php
 
 # Ignore uploads (optional)
 
-# Ignore all plugins and themes except your custom ones
-wp-content/plugins/*
 
-wp-content/themes/*
-!wp-content/themes/your-custom-theme/
 
 # Ignore OS/system files
 .DS_Store
