@@ -1,0 +1,40 @@
+# Ignore WordPress core files (use wp-content only)
+wordpress/
+wp-admin/
+wp-includes/
+license.txt
+readme.html
+xmlrpc.php
+wp-*.php
+
+# Ignore sensitive files
+wp-config.php
+
+# Ignore uploads (optional)
+
+# Ignore all plugins and themes except your custom ones
+wp-content/plugins/*
+
+wp-content/themes/*
+!wp-content/themes/your-custom-theme/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore composer/npm/node (if used)
+node_modules/
+vendor/
+package-lock.json
+composer.lock
+
+# Ignore env files (if used)
+.env
+.env.*
