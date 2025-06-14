@@ -1,7 +1,6 @@
 # Ignore WordPress core files (use wp-content only)
 wordpress/
 wp-admin/
-wp-includes/
 license.txt
 readme.html
 xmlrpc.php
